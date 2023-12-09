@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+  background-color: aliceblue;
+}
+.conatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.btn{
+    background-color: aquamarine;
+    border-radius: 8px;
+    height: 10px;
+    height: 34px;
+    width: 127px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(47, 59, 30);
+    color: aliceblue;
+}
